@@ -72,7 +72,7 @@ class CounterRender(object):
     def html(self):
         return Markup(self.render('CounterRedis/inline.html', rb=self))
 
-def count_path(*args, **kwargs):
+def count_this_path(*args, **kwargs):
     counter_render = CounterRender(*args, **kwargs)
     return counter_render.html
 
@@ -83,7 +83,7 @@ class Counter(object):
 
     def init_app(self, app):
         self.register_blueprint(app)
-        app.add_template_global(count_path)
+        app.add_template_global(count_this_path)
 
     def register_blueprint(self, app):
         module = Blueprint(

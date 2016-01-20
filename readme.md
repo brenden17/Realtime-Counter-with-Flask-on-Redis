@@ -17,7 +17,7 @@ Just put snippet on html page.
 
 ~~~
 
-{{ count_path() }}
+{{ count_this_path() }}
 
 ~~~
 
