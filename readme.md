@@ -16,3 +16,9 @@ pip install redis
 Just put snippet on html page.
 
 ~~~
+
+{{ count_path() }}
+
+~~~
+
+That's all.
