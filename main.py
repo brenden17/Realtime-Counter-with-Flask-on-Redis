@@ -17,7 +17,7 @@ Session(app)
 cr = CounterRedis(app)
 
 @app.route("/")
-def hello():
+def index():
     return render_template('example.html')
 
 @app.route("/world")

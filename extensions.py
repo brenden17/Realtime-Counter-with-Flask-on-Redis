@@ -96,5 +96,5 @@ class Counter(object):
         
 class CounterRedis(object):
     def __init__(self, app):
-        cs = CounterSession(app)
-        ba = Counter(app)
+        CounterSession(app)
+        Counter(app)
