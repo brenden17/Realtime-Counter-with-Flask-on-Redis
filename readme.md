@@ -21,4 +21,6 @@ Just put snippet on html page.
 
 ~~~
 
+![alt text](https://github.com/brenden17/Realtime-Counter-with-Flask-on-Redis/blob/master/img/like.png "image")
+
 That's all.
