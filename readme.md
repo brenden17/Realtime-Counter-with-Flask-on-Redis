@@ -1,4 +1,4 @@
-# Real Counter with redis on Flask
+# Realtime Counter with redis on Flask
 
 This is Flask extension which implements page view counter, page like counter based on Redis 
 
