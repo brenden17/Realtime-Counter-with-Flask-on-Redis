@@ -2,7 +2,7 @@
 
 This is Flask extension which implements page view counter, page like counter based on Redis 
 
-## Reqirements
+## Requirements
 
 * Redis server
 * Python library
